@@ -41,7 +41,7 @@ const Card = ({ name, username, id }) => {
       <Link className="card" key={id} to={'/dentist/' + id}>
         <h3 style={{ color: themeState.color}}>{name}</h3>
         <img src="./images/doctor.jpg" alt='Doctor' width={90} />
-        <h3>{username}</h3>
+        <h3 style={{ color: themeState.color}}>{username}</h3>
       </Link>
 
       <button onClick={addFav} className="favButton"> ⭐ </button>

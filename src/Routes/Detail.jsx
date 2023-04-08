@@ -19,18 +19,18 @@ const Detail = () => {
   
 
   return (
-    <>
+    <div style={{display: "flex", justifyContent: "center", textAlign:"center"}}>
       {/* aqui deberan renderizar la informacion en detalle de un user en especifico */}
       {/* Deberan mostrar el name - email - phone - website por cada user en especifico */}
-      <h1>Detail Dentist  </h1>
-      <div className='card'>
+      <h1> Detail Dentist : </h1>
+      <div className='card1'>
         <h3>{dentistSelect.name}</h3>
         <img src="../images/doctor.jpg" alt='Doctor' width={90} />
         <h3>Email: {dentistSelect.email}</h3>
         <h3>Telefono: {dentistSelect.phone}</h3>
         <h3>Website: {dentistSelect.website}</h3>
-      </div>
-    </>
+      </div> 
+    </div>
   )
 }
 

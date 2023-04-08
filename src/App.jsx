@@ -16,7 +16,7 @@ function App() {
 
 //div className={themeState.theme ? 'App' : 'App-dark'}></div>
 const {themeState, setDispatch} = useContextGlobal()
-console.log(themeState)
+
 
   return (
       <div className="App"  style={{backgroundColor: themeState.bgColor, color: themeState.color}}>

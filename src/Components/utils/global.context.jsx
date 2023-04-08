@@ -11,13 +11,18 @@ const themes = {
       theme: false,
       bgColor: 'black',
       color: 'white',
-      icon:  "🌞"
+      icon:  "🌞",
+      background:"rgb(72, 201, 176)",
+      colorf: "rgb(0, 0, 0)"
   },
   light: {
       theme: true,
       bgColor: 'white',
       color: 'black',
-      icon: "🌙"
+      icon: "🌙",
+      background:"rgb(129, 140, 248)",
+      colorf: "rgb(0, 0, 0)"
+
   }
 }
 const initialThemeState = themes.light
